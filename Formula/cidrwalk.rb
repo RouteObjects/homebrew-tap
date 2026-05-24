@@ -5,8 +5,8 @@ class Cidrwalk < Formula
   sha256 "dd1a10b336164f748fa702aa00806f9cb5f78bcc9b7da1d202521b14379aa5d3"
   license "Apache-2.0"
 
-  depends_on macos: :sequoia
   depends_on xcode: ["26.5", :build]
+  depends_on macos: :sequoia
 
   def install
     system "swift", "build", "--disable-sandbox", "--configuration", "release", "--product", "cidrwalk"
