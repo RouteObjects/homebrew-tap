@@ -1,7 +1,6 @@
 class Asroutes < Formula
   desc "List IPv4 or IPv6 IRR route-object prefixes for origin AS numbers"
   homepage "https://github.com/RouteObjects/asroutes"
-  version "0.1.0"
   license "Apache-2.0"
 
   livecheck do
