@@ -8,5 +8,6 @@ Prebuilt binaries for macOS and Linux. No Swift toolchain is required at
 install time.
 
 ```bash
+brew install RouteObjects/tap/asroutes
 brew install RouteObjects/tap/cidrwalk
 ```
