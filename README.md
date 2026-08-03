@@ -9,5 +9,6 @@ install time.
 
 ```bash
 brew install RouteObjects/tap/asroutes
+brew install RouteObjects/tap/cidrmerge
 brew install RouteObjects/tap/cidrwalk
 ```
