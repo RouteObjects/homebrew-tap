@@ -12,23 +12,23 @@ class Asroutes < Formula
     depends_on macos: :sequoia
 
     on_arm do
-      url "https://github.com/RouteObjects/asroutes/releases/download/0.1.0/asroutes-0.1.0-darwin-aarch64.tar.gz"
-      sha256 "3a09a77a0c16aecfce5b062453a5b651d6644994438623a739264d663ce755e7"
+      url "https://github.com/RouteObjects/asroutes/releases/download/0.2.0/asroutes-0.2.0-darwin-aarch64.tar.gz"
+      sha256 "8a2af27c46170b3e5143fd810d4e442137dcb89c5e639cd6ab73b49539d2459e"
     end
     on_intel do
-      url "https://github.com/RouteObjects/asroutes/releases/download/0.1.0/asroutes-0.1.0-darwin-x86_64.tar.gz"
-      sha256 "a086181811db42bf73ae05d89099833d13978e7c2dced5076ee275c4635ec64a"
+      url "https://github.com/RouteObjects/asroutes/releases/download/0.2.0/asroutes-0.2.0-darwin-x86_64.tar.gz"
+      sha256 "a12dd54e31b3e0568a9a08a5ffe18bf75e35a0460e66f4a6bbeb34909c4db181"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/RouteObjects/asroutes/releases/download/0.1.0/asroutes-0.1.0-linux-aarch64.tar.gz"
-      sha256 "d28bbf27d1142c9b9d56333b618b5fe268dc1d0ea41a18235a19f3248d70c713"
+      url "https://github.com/RouteObjects/asroutes/releases/download/0.2.0/asroutes-0.2.0-linux-aarch64.tar.gz"
+      sha256 "ceb21212f89e97b585600f4c483178ba0eefc4f180733957777aed7c46c0e24e"
     end
     on_intel do
-      url "https://github.com/RouteObjects/asroutes/releases/download/0.1.0/asroutes-0.1.0-linux-x86_64.tar.gz"
-      sha256 "1b7b84520e3d3b580ca4d4b0baced5cf0652f22fc22d6ef51d89e8b286857d9b"
+      url "https://github.com/RouteObjects/asroutes/releases/download/0.2.0/asroutes-0.2.0-linux-x86_64.tar.gz"
+      sha256 "9c17dfdb2f81e815b979932fa4ddb0e679112f3f62a06230f2e48c022238a10c"
     end
   end
 
