@@ -12,23 +12,23 @@ class Cidrwalk < Formula
     depends_on macos: :sequoia
 
     on_arm do
-      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.2.0/cidrwalk-0.2.0-darwin-aarch64.tar.gz"
-      sha256 "b761d722212c9c392b66fe01742c8d31fdc999e8fb9bec7bcef3ced2c6d84530"
+      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.3.0/cidrwalk-0.3.0-darwin-aarch64.tar.gz"
+      sha256 "edfb0f43df24e4fc0f0fbc30ceae1c324f37604f0031cac66194b98f7baf69df"
     end
     on_intel do
-      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.2.0/cidrwalk-0.2.0-darwin-x86_64.tar.gz"
-      sha256 "9a329ffb5b704e6ce71fcd3666872b18d31682b7b9f138ed69e5ff0a9e841491"
+      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.3.0/cidrwalk-0.3.0-darwin-x86_64.tar.gz"
+      sha256 "a8638d7234804b340ee5c3b7523334e78c8b1fc4c22d9ad0509452419b53069e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.2.0/cidrwalk-0.2.0-linux-aarch64.tar.gz"
-      sha256 "fe1b22d6d561920b9d721912818172fbcc735c03b36e6185b32f173cb2cc702a"
+      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.3.0/cidrwalk-0.3.0-linux-aarch64.tar.gz"
+      sha256 "641d39a39ab8f6372f485675eb15cd19a1dffd6031c7549d1bfe8869daaac660"
     end
     on_intel do
-      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.2.0/cidrwalk-0.2.0-linux-x86_64.tar.gz"
-      sha256 "a519f15586cbb3faf1dc524e19d7df368935252682d87d823f3f337a7ca4c86c"
+      url "https://github.com/RouteObjects/cidrwalk/releases/download/0.3.0/cidrwalk-0.3.0-linux-x86_64.tar.gz"
+      sha256 "76613d131567ffa6f973fe2de257fe93b744b4a89661404160dfe34fa5128057"
     end
   end
 
