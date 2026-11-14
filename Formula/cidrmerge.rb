@@ -12,23 +12,23 @@ class Cidrmerge < Formula
     depends_on macos: :sequoia
 
     on_arm do
-      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.2.0/cidrmerge-0.2.0-darwin-aarch64.tar.gz"
-      sha256 "7459d93408bc46398b7012761b8eeb5b81c31923f1ee3029bc99a6138659b638"
+      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.4.0/cidrmerge-0.4.0-darwin-aarch64.tar.gz"
+      sha256 "444dcf73f3592316c4722a7fac94b0ea3507449fe923387d9dff0edd88dd793e"
     end
     on_intel do
-      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.2.0/cidrmerge-0.2.0-darwin-x86_64.tar.gz"
-      sha256 "9ff44cefa1b87421656f7aa1e9eb4918b8a54f02e1bf79c6197bad21aa6c5f3b"
+      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.4.0/cidrmerge-0.4.0-darwin-x86_64.tar.gz"
+      sha256 "3e9708c177ca2c09cbd9300940389fd7bd75fd1caafa4d8764a005d553ed7b85"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.2.0/cidrmerge-0.2.0-linux-aarch64.tar.gz"
-      sha256 "826c3dfc6cee39bcb54ed3242a959c4fe56769913bef5b5e884154d5ba6cd357"
+      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.4.0/cidrmerge-0.4.0-linux-aarch64.tar.gz"
+      sha256 "6fe837d00a94b1ef2a428b6c2ee6e375dc6e8cdb7b8bd9db82bb7f64ceb057a6"
     end
     on_intel do
-      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.2.0/cidrmerge-0.2.0-linux-x86_64.tar.gz"
-      sha256 "1e071300369ceefde00151e188b33f5822942d0d01fe8a44c32fe7950c99675e"
+      url "https://github.com/RouteObjects/cidrmerge/releases/download/0.4.0/cidrmerge-0.4.0-linux-x86_64.tar.gz"
+      sha256 "df9f7c84e674c99714c7a2401babc00a03ace58e17d45681ff172b35592c1d6b"
     end
   end
 
